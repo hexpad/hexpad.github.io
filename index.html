@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <button id="menuToggle">&#9776;</button>
+        <h1>My Projects</h1>
+        <p>“Little by little, one travels far.”</p>
+    </header>
+
+    <nav id="sidebar">
+    <ul>
+        <li class="category" data-category="all">All Categories</li>
+
+        <li class="divider"></li> <!-- Boşluk oluşturmak için eklendi -->
+
+        <li class="category" data-category="Radar Scanning Algorithms">Radar Scanning Algorithms</li>
+        <li class="category" data-category="Microcontrollers">Microcontrollers</li>
+        <li class="category" data-category="Network">Network</li>
+        <li class="category" data-category="Control Systems">Control Systems</li>
+
+        <li class="divider"></li> <!-- İkinci boşluk -->
+
+        <li class="category" data-category="contact">Contact</li>
+    </ul>
+</nav>
+
+    <div id="overlay"></div>
+
+    <main>
+        <section id="portfolio">
+            <h2 id="portfolioTitle">Projects</h2>
+            <div class="projects">
+                <p id="loading">Projects Loading...</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>
+                <a href="mailto:ornek@example.com" class="email-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FF5E57">
+                        <path d="M12 13.065l-11-7V18c0 1.105.895 2 2 2h18c1.105 0 2-.895 2-2V6.065l-11 7z"/>
+                        <path d="M12 11l11-7H1l11 7z"/>
+                    </svg>
+                    E-mail
+                </a>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p1>İbrahim Sinekli</p1>
+        <p>&copy; 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
