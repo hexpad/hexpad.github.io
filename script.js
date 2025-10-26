@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { name: "DistanceBasedServo", url: "https://hexpad.github.io/DistanceBasedServo/", category: "Microcontrollers", description: "Controls a servo motor based on an ultrasonic sensor" },
         { name: "opendns-updater", url: "https://hexpad.github.io/opendns-updater/", category: "Network", description: "updates your OpenDNS account with your new IP address" },
         { name: "TransferFunction_arduino", url: "https://hexpad.github.io/TransferFunction_arduino/", category: "Control Systems", description: "Implementation of a given transfer function for arduino" },
-        
+        { name: "task-force", url: "https://hexpad.github.io/task-force/", category: "Task Management", description: "Keeps a list of things. Can mark them as completed." },
         
     ];
 
