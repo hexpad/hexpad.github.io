@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { name: "opendns-updater", url: "https://hexpad.github.io/opendns-updater/", category: "Network", description: "updates your OpenDNS account with your new IP address" },
         { name: "TransferFunction_arduino", url: "https://hexpad.github.io/TransferFunction_arduino/", category: "Control Systems", description: "Implementation of a given transfer function for arduino" },
         { name: "nodal-analysis", url: "https://hexpad.github.io/nodal-analysis/", category: "Circuit Analysis", description: "a simple program that quickly calculates the node voltage and the currents in a simple circuit." },
+        { name: "nodal-analysis-2", url: "https://hexpad.github.io/nodal-analysis-2/", category: "Circuit Analysis", description: "performs nodal analysis on a two-node electrical circuit with two voltage sources and five resistors." },
         
         
     ];
