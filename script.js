@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     const projects = [
+        { name: "rcs-calculator", url: "https://hexpad.github.io/rcs-calculator/", category: "Calculators", description: "calculates the radar cross section for different geometric shapes" }
         { name: "raster-scanner", url: "https://hexpad.github.io/raster-scanner/", category: "Radar Scanning Algorithms", description: "generates 3D coordinates for a raster scan pattern based on user-defined parameters" },
         { name: "spiral-scanner", url: "https://hexpad.github.io/spiral-scanner/", category: "Radar Scanning Algorithms", description: "simulates a 3D spiral scanning pattern using an Archimedean spiral" },
         { name: "helical-scanner", url: "https://hexpad.github.io/helical-scanner/", category: "Radar Scanning Algorithms", description: "simulates a helical scanning motion and saves the calculated 3D coordinates" },
