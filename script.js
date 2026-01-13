@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     const projects = [
+        { name: "alpha-beta-tracker", url: "https://hexpad.github.io/alpha-beta-tracker/", category: "EW", description: "Simple 2D object tracking in C++ using an Alpha-Beta filter. Reads measurements from a text file and predicts future positions." },
         { name: "radar-range", url: "https://hexpad.github.io/radar-range/", category: "EW", description: "calculates the maximum detection range of a radar using the basic radar range equation" },
         { name: "rcs-calculator", url: "https://hexpad.github.io/rcs-calculator/", category: "EW", description: "calculates the radar cross section for different geometric shapes" },
         { name: "raster-scanner", url: "https://hexpad.github.io/raster-scanner/", category: "EW", description: "generates 3D coordinates for a raster scan pattern based on user-defined parameters" },
