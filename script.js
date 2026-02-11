@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     const projects = [
+        { name: "doppler-radar-simulator", url: "https://hexpad.github.io/doppler-radar-simulator/", category: "Simulators", description: "doppler radar simulator written in C++" },
         { name: "radar-simulator", url: "https://hexpad.github.io/radar-simulator/", category: "Simulators", description: "A C++ radar simulator with dynamic targets using Raylib" },
         { name: "alpha-beta-tracker", url: "https://hexpad.github.io/alpha-beta-tracker/", category: "EW", description: "Simple 2D object tracking in C++ using an Alpha-Beta filter. Reads measurements from a text file and predicts future positions" },
         { name: "radar-range", url: "https://hexpad.github.io/radar-range/", category: "EW", description: "calculates the maximum detection range of a radar using the basic radar range equation" },
