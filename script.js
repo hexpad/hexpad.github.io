@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     const projects = [
+        { name: "multi-protocol-analyzer", url: "https://github.com/hexpad/uart-spi-i2c-analyzer", category: "Microcontrollers", description: "C++ based UART, SPI, and I2C protocol analyzer with ESP32" },
         { name: "doppler-radar-simulator", url: "https://hexpad.github.io/doppler-radar-simulator/", category: "Simulators", description: "doppler radar simulator written in C++" },
         { name: "radar-simulator", url: "https://hexpad.github.io/radar-simulator/", category: "Simulators", description: "A C++ radar simulator with dynamic targets using Raylib" },
         { name: "alpha-beta-tracker", url: "https://hexpad.github.io/alpha-beta-tracker/", category: "EW", description: "Simple 2D object tracking in C++ using an Alpha-Beta filter. Reads measurements from a text file and predicts future positions" },
