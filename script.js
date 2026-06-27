@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     const projects = [
+        { name: "mini-air-defense", url: "https://hexpad.github.io/mini-air-defense/", category: "Microcontrollers", description: "Mini autonomous air defense system. Scans the area with a pan-tilt gimbal, locks onto targets, and neutralizes when in range. Built with ESP32, HC-SR04, and 2x SG90" },
         { name: "multi-protocol-analyzer", url: "https://hexpad.github.io/uart-spi-i2c-analyzer/", category: "Microcontrollers", description: "Shows how UART, SPI, and I2C communication works by using a C++ simulation and ESP32 code" },
         { name: "doppler-radar-simulator", url: "https://hexpad.github.io/doppler-radar-simulator/", category: "Simulators", description: "doppler radar simulator written in C++" },
         { name: "radar-simulator", url: "https://hexpad.github.io/radar-simulator/", category: "Simulators", description: "A C++ radar simulator with dynamic targets using Raylib" },
