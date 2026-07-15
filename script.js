@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     const projects = [
+        { name: "dsp-spectrum-analyzer", url: "https://hexpad.github.io/dsp-spectrum-analyzer/", category: "Signal Processing", description: "Digital Signal Processing project implementing a spectrum analyzer from scratch" },
         { name: "mini-air-defense", url: "https://hexpad.github.io/mini-air-defense/", category: "Microcontrollers", description: "Mini autonomous air defense system. Scans the area with a pan-tilt gimbal, locks onto targets, and neutralizes when in range. Built with ESP32, HC-SR04, and 2x SG90" },
         { name: "raspberry-pi-chat", url: "https://hexpad.github.io/raspberry-pi-chat-hub/", category: "Network", description: "Terminal-based LAN chat in C++ using a Raspberry Pi as message hub" },
         { name: "multi-protocol-analyzer", url: "https://hexpad.github.io/uart-spi-i2c-analyzer/", category: "Microcontrollers", description: "Shows how UART, SPI, and I2C communication works by using a C++ simulation and ESP32 code" },
